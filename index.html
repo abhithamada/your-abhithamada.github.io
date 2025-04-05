@@ -1,29 +1,70 @@
+---
+layout: default
+title: "Abhinanditha Thamada - Portfolio"
+permalink: /
+---
 
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Abhinanditha Thamada - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }} - Portfolio</title>
 </head>
 <body>
-  <header>
-    <h1>Hello, I'm Abhinanditha!</h1>
-    <p>Health Informatics | Dental Graduate | Data Enthusiast</p>
-  </header>
-  <main>
-    <h2>About Me</h2>
-    <p>I am currently a Health Informatics graduate student with a background in dentistry and a passion for clinical decision support, data analytics, and improving healthcare delivery through technology.</p>
+    <header>
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.description }}</p>
+    </header>
 
-    <h2>Projects</h2>
-    <ul>
-      <li>CDSS for CKD & Psoriasis – Built clinical decision rules in OpenEMR</li>
-      <li>ETL Pipeline with FHIR APIs – Connected EHR systems using HL7 FHIR</li>
-      <li>COVID-19 mAb Analysis – Used R and Tableau for statistical reporting</li>
-    </ul>
-  </main>
-  <footer>
-    <p>Contact: dr.abhithamada@gmail.com | GitHub: <a href="https://github.com/abhithamada">abhithamada</a></p>
-  </footer>
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a Health Informatics graduate student with a background in dentistry. I am passionate about data analytics, healthcare workflows, and improving decision-making in medical practices. I have experience with clinical decision support systems, EHR usability, and healthcare research.
+        </p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>ETL Pipeline using FHIR APIs</h3>
+                <p>Developed an ETL pipeline integrating Primary Care EHR and OpenEMR using FHIR APIs. Mapped SNOMED CT codes and optimized data interoperability and workflow automation.</p>
+            </li>
+            <li>
+                <h3>Clinical Decision Support for CKD and Psoriasis</h3>
+                <p>Designed Clinical Decision Rules (CDRs) in OpenEMR for CKD diagnosis and Psoriasis treatment, utilizing SNOMED CT for medical coding.</p>
+            </li>
+            <li>
+                <h3>Impact of Climate Change on Global Food Security Index</h3>
+                <p>Analyzed the impact of climate change on the Global Food Security Index using statistical methods and visualizations like box plots and scatter plots.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <h3>Data Analysis Intern - IU School of Human and Health Sciences</h3>
+                <p>Extracted and analyzed key trends from a dataset of COVID-19 monoclonal antibody patients using R and Excel, focusing on factors like race, gender, and location.</p>
+            </li>
+            <li>
+                <h3>Palliative Care Research Intern - IU School of Human and Health Sciences</h3>
+                <p>Utilized REDCap for data acquisition and statistical analysis to identify trends in advanced care planning for Parkinson's patients.</p>
+            </li>
+            <li>
+                <h3>Co-instructor for Human Physiology - Department of Biology IU</h3>
+                <p>Guided undergraduates in laboratory experiments and facilitated workshops on respiratory, cardiovascular, and nervous system data collection.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:dr.abhithamada@gmail.com">dr.abhithamada@gmail.com</a></p>
+        <p>Phone: +1 463 203 7395</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/abhithamada">linkedin.com/in/abhithamada</a></p>
+    </section>
+
 </body>
 </html>
