@@ -4,106 +4,68 @@ title: "Abhinanditha Thamada - Portfolio"
 permalink: /
 ---
 
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhinanditha Thamada's Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <title>{{ site.title }} - Portfolio</title>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hello! I'm Abhinanditha Thamada, a Health Informatics graduate student with a background in Dentistry.</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.description }}</p>
     </header>
 
-    <!-- About Me Section -->
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>
-                I am a **Health Informatics graduate student** with a background in **Dentistry** and a passion for **Data Analysis**, **Clinical Decision Support**, and **Healthcare Technology**.
-                My focus is on combining clinical knowledge with informatics to improve healthcare systems and decision-making.
-            </p>
-        </div>
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a Health Informatics graduate student with a background in dentistry. I am passionate about data analytics, healthcare workflows, and improving decision-making in medical practices. I have experience with clinical decision support systems, EHR usability, and healthcare research.
+        </p>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience">
-        <div class="container">
-            <h2>My Experience</h2>
-
-            <h3>Data Analysis Intern - IU School of Human and Health Sciences</h3>
-            <p><strong>January 2025 – Present</strong></p>
-            <ul>
-                <li>Analyzed key trends from a dataset of 1800+ COVID-19 monoclonal antibody patients using **R** and **Excel**.</li>
-                <li>Created visualizations to analyze monoclonal antibody adherence by race, gender, and location.</li>
-            </ul>
-
-            <h3>Palliative Care Research Intern - IU School of Human and Health Sciences</h3>
-            <p><strong>January 2025 – Present</strong></p>
-            <ul>
-                <li>Developed **electronic case report forms (eCRFs)** for Parkinson’s patients using **REDCap**.</li>
-                <li>Conducted statistical analysis of cohort questionnaires to identify trends in advanced care planning.</li>
-            </ul>
-
-            <h3>Graduate Teaching Assistant - Luddy School of Informatics, IU</h3>
-            <p><strong>January 2024 – May 2024</strong></p>
-            <ul>
-                <li>Led discussions on **Health Information Exchange** for undergraduate students, focusing on the electronic exchange of healthcare data.</li>
-            </ul>
-        </div>
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>ETL Pipeline using FHIR APIs</h3>
+                <p>Developed an ETL pipeline integrating Primary Care EHR and OpenEMR using FHIR APIs. Mapped SNOMED CT codes and optimized data interoperability and workflow automation.</p>
+            </li>
+            <li>
+                <h3>Clinical Decision Support for CKD and Psoriasis</h3>
+                <p>Designed Clinical Decision Rules (CDRs) in OpenEMR for CKD diagnosis and Psoriasis treatment, utilizing SNOMED CT for medical coding.</p>
+            </li>
+            <li>
+                <h3>Impact of Climate Change on Global Food Security Index</h3>
+                <p>Analyzed the impact of climate change on the Global Food Security Index using statistical methods and visualizations like box plots and scatter plots.</p>
+            </li>
+        </ul>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2>My Projects</h2>
-
-            <h3>ETL Pipeline using FHIR APIs</h3>
-            <p><strong>August 2024 – December 2024</strong></p>
-            <ul>
-                <li>Developed an **ETL pipeline** to integrate **Primary Care EHR** with **OpenEMR** using **FHIR APIs**.</li>
-                <li>Implemented workflows using **BPMN** to optimize data interoperability.</li>
-            </ul>
-
-            <h3>Clinical Decision Support for CKD and Psoriasis</h3>
-            <p><strong>August 2024 – December 2024</strong></p>
-            <ul>
-                <li>Designed **Clinical Decision Rules (CDRs)** in **OpenEMR** for **Chronic Kidney Disease** diagnosis and **Psoriasis** treatment.</li>
-                <li>Enhanced decision support by incorporating evidence-based practices.</li>
-            </ul>
-        </div>
+    <section>
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <h3>Data Analysis Intern - IU School of Human and Health Sciences</h3>
+                <p>Extracted and analyzed key trends from a dataset of COVID-19 monoclonal antibody patients using R and Excel, focusing on factors like race, gender, and location.</p>
+            </li>
+            <li>
+                <h3>Palliative Care Research Intern - IU School of Human and Health Sciences</h3>
+                <p>Utilized REDCap for data acquisition and statistical analysis to identify trends in advanced care planning for Parkinson's patients.</p>
+            </li>
+            <li>
+                <h3>Co-instructor for Human Physiology - Department of Biology IU</h3>
+                <p>Guided undergraduates in laboratory experiments and facilitated workshops on respiratory, cardiovascular, and nervous system data collection.</p>
+            </li>
+        </ul>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>If you'd like to get in touch, feel free to reach out to me via email.</p>
-            <a href="mailto:dr.abhithamada@gmail.com" class="button">Email Me</a>
-        </div>
+    <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:dr.abhithamada@gmail.com">dr.abhithamada@gmail.com</a></p>
+        <p>Phone: +1 463 203 7395</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/abhithamada">linkedin.com/in/abhithamada</a></p>
     </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Abhinanditha Thamada | All Rights Reserved</p>
-        </div>
-    </footer>
 
 </body>
 </html>
 
-</html>
