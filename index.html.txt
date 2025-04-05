@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abhinanditha Thamada - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hello, I'm Abhinanditha!</h1>
+    <p>Health Informatics | Dental Graduate | Data Enthusiast</p>
+  </header>
+  <main>
+    <h2>About Me</h2>
+    <p>I am currently a Health Informatics graduate student with a background in dentistry and a passion for clinical decision support, data analytics, and improving healthcare delivery through technology.</p>
+
+    <h2>Projects</h2>
+    <ul>
+      <li>CDSS for CKD & Psoriasis – Built clinical decision rules in OpenEMR</li>
+      <li>ETL Pipeline with FHIR APIs – Connected EHR systems using HL7 FHIR</li>
+      <li>COVID-19 mAb Analysis – Used R and Tableau for statistical reporting</li>
+    </ul>
+  </main>
+  <footer>
+    <p>Contact: dr.abhithamada@gmail.com | GitHub: <a href="https://github.com/your-username">your-username</a></p>
+  </footer>
+</body>
+</html>
