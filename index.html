@@ -1,62 +1,132 @@
----
-layout: default
-title: "Abhinanditha Thamada - Portfolio"
-permalink: /
----
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title fixed to avoid duplication -->
-    <title>Portfolio - Abhinanditha Thamada</title>
+    <title>Abhinanditha Thamada - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        header, section {
+            margin-bottom: 2.5rem;
+        }
+        h1, h2, h3 {
+            color: #003366;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        a {
+            color: #0055aa;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Abhinanditha Thamada</h1>
-        <p>Health Informatics Graduate Student | Data Analytics | Healthcare Innovation</p>
+        <p>Health Informatics graduate student with a dentistry background, skilled in data analytics, EHR usability, and clinical decision support.</p>
     </header>
 
     <section>
         <h2>About Me</h2>
-        <p>
-            I am a Health Informatics graduate student with a background in dentistry. I am passionate about data analytics, healthcare workflows, and improving decision-making in medical practices. I have experience with clinical decision support systems, EHR usability, and healthcare research.
-        </p>
+        <p>I am passionate about healthcare workflows, interoperability, and applying evidence-based decision-making. I bring a unique blend of clinical and informatics skills through my experience in dentistry, data analysis, research, and teaching.</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>Indiana University, IN</strong> (Aug 2023 – May 2025)<br>
+                Master of Science in Health Informatics – GPA: 3.85/4.0
+            </li>
+            <li>
+                <strong>Dr. KNR University of Health Sciences, India</strong> (Sep 2017 – May 2023)<br>
+                Bachelor of Dental Surgery – GPA: 3.2/4.0
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+        <ul>
+            <li>
+                <strong>Data Analysis Intern – IU School of Human and Health Sciences</strong><br>
+                <em>Jan 2025 – Present</em><br>
+                Analyzed data from 1800+ COVID-19 monoclonal antibody patients using R and Excel. Created dashboards in Tableau to highlight adherence trends by race, gender, and location.
+            </li>
+            <li>
+                <strong>Palliative Care Research Intern – IU School of Human and Health Sciences</strong><br>
+                <em>Jan 2025 – Present</em><br>
+                Built cohort-specific REDCap forms and conducted statistical analysis of Parkinson’s patient data to identify trends in advanced care planning.
+            </li>
+            <li>
+                <strong>Graduate Teaching Assistant – Luddy School of Informatics, IU</strong><br>
+                <em>Jan 2024 – May 2024</em><br>
+                Facilitated collaboration and addressed student queries in Health Information Exchange courses focused on healthcare data systems.
+            </li>
+            <li>
+                <strong>Co-instructor for Human Physiology – Dept. of Biology, IU</strong><br>
+                <em>Jan 2024 – Present</em><br>
+                Led lab sessions and workshops using iWorx LabScribe for 25+ undergraduates focused on respiratory, cardiovascular, and nervous system experiments.
+            </li>
+            <li>
+                <strong>Dental Intern – Dr. KNR University of Health Sciences</strong><br>
+                <em>May 2022 – May 2023</em><br>
+                Delivered patient care and participated in rural dental camps, managing cases across general dentistry disciplines.
+            </li>
+        </ul>
     </section>
 
     <section>
         <h2>Projects</h2>
         <ul>
             <li>
-                <h3>ETL Pipeline using FHIR APIs</h3>
-                <p>Developed an ETL pipeline integrating Primary Care EHR and OpenEMR using FHIR APIs. Mapped SNOMED CT codes and optimized data interoperability and workflow automation.</p>
+                <strong>ETL Pipeline using FHIR APIs</strong> (Aug 2024 – Dec 2024)<br>
+                Built an ETL pipeline connecting Primary Care EHR and OpenEMR using Python and FHIR APIs. Integrated SNOMED CT codes and used BPMN workflows in Camunda.
             </li>
             <li>
-                <h3>Clinical Decision Support for CKD and Psoriasis</h3>
-                <p>Designed Clinical Decision Rules (CDRs) in OpenEMR for CKD diagnosis and Psoriasis treatment, utilizing SNOMED CT for medical coding.</p>
+                <strong>Clinical Decision Support for CKD and Psoriasis</strong> (Aug 2024 – Dec 2024)<br>
+                Created Clinical Decision Rules using SNOMED CT and ATLAS tool, developed decision trees, and aligned them with literature-based evidence.
             </li>
             <li>
-                <h3>Impact of Climate Change on Global Food Security Index</h3>
-                <p>Analyzed the impact of climate change on the Global Food Security Index using statistical methods and visualizations like box plots and scatter plots.</p>
+                <strong>Impact of Climate Change on Global Food Security Index</strong> (Jan 2024 – May 2024)<br>
+                Cleaned and analyzed data in R, applied ANOVA and visualizations (box plots, maps) to study the effects of climate on food security.
+            </li>
+            <li>
+                <strong>EHR Usability Analysis</strong> (Jan 2024 – May 2024)<br>
+                Reviewed OpenEMR workflows, identifying alert fatigue and interface issues. Recommended usability improvements via rubric assessment.
+            </li>
+            <li>
+                <strong>Prediction of Student Dropout Rates</strong> (Aug 2023 – Dec 2023)<br>
+                Used logistic regression and decision trees to predict dropout risk. Performed statistical tests (Shapiro-Wilk, Chi-square) and visualized results using ROC curves.
             </li>
         </ul>
     </section>
 
     <section>
-        <h2>Experience</h2>
+        <h2>Publications</h2>
+        <p>
+            <strong>Co-author (Dec 2024)</strong><br>
+            <em>"Students Consider the Impact of Democratic and Republican Healthcare Policies on Health Informatics and Health Information Technology"</em><br>
+            Published on ResearchGate – Explored how political policy affects investment and budgeting in HI/HIT.
+        </p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
         <ul>
-            <li>
-                <h3>Data Analysis Intern - IU School of Human and Health Sciences</h3>
-                <p>Extracted and analyzed key trends from a dataset of COVID-19 monoclonal antibody patients using R and Excel, focusing on factors like race, gender, and location.</p>
-            </li>
-            <li>
-                <h3>Palliative Care Research Intern - IU School of Human and Health Sciences</h3>
-                <p>Utilized REDCap for data acquisition and statistical analysis to identify trends in advanced care planning for Parkinson's patients.</p>
-            </li>
-            <li>
-                <h3>Co-instructor for Human Physiology - Department of Biology IU</h3>
-                <p>Guided undergraduates in laboratory experiments and facilitated workshops on respiratory, cardiovascular, and nervous system data collection.</p>
-            </li>
+            <li><strong>Programming:</strong> Python, R, SQL</li>
+            <li><strong>Tools & Platforms:</strong> PyCharm, GitHub, Camunda, Postman Web, Athena</li>
+            <li><strong>Visualization:</strong> Tableau, Power BI</li>
+            <li><strong>Healthcare Databases:</strong> REDCap, OpenEMR, PrimaryCare EHR</li>
+            <li><strong>Health Standards:</strong> ICD-10, SNOMED CT, LOINC, RxNorm, HL7, HIPAA</li>
+            <li><strong>Desktop Tools:</strong> Microsoft Excel, Word, PowerPoint, Outlook</li>
+            <li><strong>Certifications:</strong> CITI – Biomedical & Social/Behavioral Researcher</li>
         </ul>
     </section>
 
@@ -64,8 +134,8 @@ permalink: /
         <h2>Contact</h2>
         <p>Email: <a href="mailto:dr.abhithamada@gmail.com">dr.abhithamada@gmail.com</a></p>
         <p>Phone: +1 463 203 7395</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/abhithamada">linkedin.com/in/abhithamada</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/drabhithamada">www.linkedin.com/in/drabhithamada</a></p>
     </section>
-
 </body>
 </html>
+
